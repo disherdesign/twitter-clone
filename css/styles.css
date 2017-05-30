@@ -19,6 +19,10 @@ body {
 	font-family: "Helvetica Neue",Arial,sans-serif;
 }
 
+textarea {
+	resize: none;
+}
+
 /* GLOBAL ELEMENTS */
 .avatar {
 	width: 32px;
@@ -127,9 +131,18 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+
+	.tweet-compose.dashboard {
+		
+	}
+
+
 		#tweet-controls {
 			text-align: right;
+			display: none;	
 		}
+
+
 			#tweet-controls div {
 				display: inline-block;
 			}
@@ -138,6 +151,10 @@ body {
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
 			}
+
+			#char-count div{
+			}
+
 
 /* TWEET */
 .tweet {
@@ -178,6 +195,7 @@ body {
 				color: #2FC2EF;
 				cursor: pointer;
 				margin-right: 2px;
+
 			}
 
 	.icon {
